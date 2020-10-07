@@ -41,8 +41,10 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
 
-    implementation project(path: ':sheet-localization-annotation')
-    kapt project(path: ':sheet-localization-processor')
+    implementation 'com.github.prongbang:sheet-localization-annotation:1.0.0'
+    kapt 'com.github.prongbang:sheet-localization-processor:1.0.0'
+//    implementation 'com.github.prongbang:android-sheet-localization:1.0.0'
+//    kapt 'com.github.prongbang:android-sheet-localization:1.0.0'
 
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
