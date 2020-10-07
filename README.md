@@ -46,7 +46,6 @@ class MainApplication : Application()
 - Click `Make Project` or `Command + F9`
 
 ```
-> Task :app:kaptDebugKotlin
 > Create file values-es/strings.xml	-> SUCCESS
 > Create file values-zh/strings.xml	-> SUCCESS
 > Create file values-de/strings.xml	-> SUCCESS
