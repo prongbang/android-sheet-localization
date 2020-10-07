@@ -4,7 +4,7 @@ import android.app.Application
 import com.prongbang.aslprocessor.annotation.AndroidSheetLocalization
 
 @AndroidSheetLocalization(
-		documentId = "1oS7iJ6ocrZBA53SxRfKF0CG9HAaXeKtzvsTBhgG4Zzk",
+		documentId = "1_97CuyDyVD28ICV_hBGDEdwKGuIokE1egeNlVJn08Tc",
 		sheetId = "0"
 )
 class MainApplication : Application()

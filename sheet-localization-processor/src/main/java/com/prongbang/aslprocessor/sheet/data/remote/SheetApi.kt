@@ -12,16 +12,11 @@ class GoogleSheetApi : SheetApi {
 
 	override fun download(sheet: Sheet): String {
 		val url = "https://docs.google.com/spreadsheets/d/${sheet.documentId}/export?format=csv&id=${sheet.documentId}&gid=${sheet.id}"
-
-		println("Downloading csv from Google sheet url \"$url\" ...")
-
 		val (_, _, result) = url.httpGet()
 				.responseString()
-
 		return when (result) {
 			is Result.Success -> result.get()
 			else -> ""
 		}
 	}
-
 }

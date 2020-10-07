@@ -1,8 +1,8 @@
 package com.prongbang.aslprocessor.sheet.data
 
-import com.prongbang.aslprocessor.sheet.domain.Localizations
+import com.opencsv.CSVReader
 import com.prongbang.aslprocessor.sheet.domain.Sheet
 
 interface SheetDataSource {
-	fun download(sheet: Sheet): Localizations
+	fun download(sheet: Sheet): CSVReader
 }
