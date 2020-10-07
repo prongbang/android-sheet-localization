@@ -23,15 +23,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
-    sourceSets {
-        main {
-            java {
-                srcDir "${buildDir.absolutePath}/generated/source/kaptKotlin/"
-            }
-        }
-    }
-
 }
 
 dependencies {
@@ -43,8 +34,6 @@ dependencies {
 
     implementation 'com.github.prongbang:sheet-localization-annotation:1.0.0'
     kapt 'com.github.prongbang:sheet-localization-processor:1.0.0'
-//    implementation 'com.github.prongbang:android-sheet-localization:1.0.0'
-//    kapt 'com.github.prongbang:android-sheet-localization:1.0.0'
 
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

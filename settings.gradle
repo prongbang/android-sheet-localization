@@ -1,4 +1,2 @@
-include ':sheet-localization-annotation'
-include ':sheet-localization-processor'
 include ':app'
 rootProject.name = "android-sheet-localization"
