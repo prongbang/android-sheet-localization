@@ -45,7 +45,7 @@ https://docs.google.com/spreadsheets/d/1_97CuyDyVD28ICV_hBGDEdwKGuIokE1egeNlVJn0
 @AndroidSheetLocalization(
 		sheetId = "0",
 		documentId = "1_97CuyDyVD28ICV_hBGDEdwKGuIokE1egeNlVJn08Tc",
-        enabled = true
+		enabled = true
 )
 class MainApplication : Application()
 ```
