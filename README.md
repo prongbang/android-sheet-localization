@@ -16,8 +16,8 @@ repositories {
 
 ```groovy
 dependencies {
-    implementation 'com.github.prongbang:sheet-localization-annotation:1.0.0'
-    kapt 'com.github.prongbang:sheet-localization-processor:1.0.0'
+    implementation 'com.github.prongbang:sheet-localization-annotation:1.1.0'
+    kapt 'com.github.prongbang:sheet-localization-processor:1.1.0'
 }
 ```
 
@@ -43,8 +43,9 @@ https://docs.google.com/spreadsheets/d/1_97CuyDyVD28ICV_hBGDEdwKGuIokE1egeNlVJn0
 
 ```kotlin
 @AndroidSheetLocalization(
+		sheetId = "0",
 		documentId = "1_97CuyDyVD28ICV_hBGDEdwKGuIokE1egeNlVJn08Tc",
-		sheetId = "0"
+        enabled = true
 )
 class MainApplication : Application()
 ```
