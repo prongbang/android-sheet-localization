@@ -21,7 +21,7 @@ dependencies {
 }
 ```
 
-## Used
+## Requirement
 
 - Create a Google Sheet
 
