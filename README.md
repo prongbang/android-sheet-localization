@@ -41,6 +41,8 @@ https://docs.google.com/spreadsheets/d/<DocumentId>/edit#gid=<SheetId>
 
 ```html
 https://docs.google.com/spreadsheets/d/1_97CuyDyVD28ICV_hBGDEdwKGuIokE1egeNlVJn08Tc/edit#gid=0
+OR
+https://docs.google.com/spreadsheets/d/1r91ECV-As0XtuqGKXU7dXnoY4og9XPBoCqwRcdio6EU/edit#gid=0
 ```
 
 - Add annotation on `Application` class
