@@ -16,14 +16,18 @@ repositories {
 
 ```groovy
 dependencies {
-    implementation 'com.github.prongbang:sheet-localization-annotation:1.1.0'
-    kapt 'com.github.prongbang:sheet-localization-processor:1.1.0'
+    implementation 'com.github.prongbang:sheet-localization-annotation:1.2.0'
+    kapt 'com.github.prongbang:sheet-localization-processor:1.2.0'
 }
 ```
 
 ## Used
 
 - Create a Google Sheet
+
+![Sheet](/screenshot/sheet-localize.png)
+
+OR
 
 ![Sheet](/screenshot/sheet.png)
 
